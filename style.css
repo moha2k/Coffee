@@ -116,6 +116,12 @@ body{
     background: #3b141c;
 
 }
+@media (max-width:767px) {
+    .section1{
+        padding-top: 40px;
+    }
+    
+}
 .section1 .container .row{
     display: flex;
     justify-content: space-between;
@@ -160,7 +166,7 @@ body{
 .section1 .container .row .col .btn button{
     padding: 10px 20px;
     border-radius: 40px;
-    font-size: 20px;
+    /* font-size: 20px; */
     
 
 }
@@ -168,28 +174,28 @@ body{
     color: #000;
     background: #f3961c;
     font-weight: 600;
-    border: none;
+    border: 1px solid #f3961c;
 }
 .section1 .container .row .col .btn .bt1:hover{
     background: #3b141c;
     color: #fff;
-    border: 2px solid white;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in;
+    border: 1px solid white;
+    /* -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in; */
 }
 .section1 .container .row .col .btn .bt2{
     background: #3b141c;
     color: #fff;
-    border: 2px solid white;
+    border: 1px solid white;
     font-weight: 600;
 
 }
 .section1 .container .row .col .btn .bt2:hover{
     background:#f3961c;
     color: #000;
-    border: none;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in;
+    border: 1px solid #f3961c;
+    /* -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in; */
 }
 .section1 .container .row .col img{
     width: 100%;
@@ -198,7 +204,7 @@ body{
 }
 @media (max-width:991px) {
     .section1 .container .row .col img{
-        max-width: 450px;
+        max-width: 100%;
         /* padding-left: 0; */
     }
     .section1 .container .row{
@@ -212,6 +218,12 @@ body{
        justify-content: center; 
     }
 
+    
+}
+@media (max-width:767px) {
+    .section1 .container .row .col{
+        text-align: left;
+    }
     
 }
 @media (max-width:1275px) {
@@ -266,10 +278,11 @@ body{
 }
 .section2 .container .row .col .box i:hover{
     color: #f3961c;
+    cursor: pointer;
 }
 .section2 .container .row .col img{
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: 50%;
@@ -528,4 +541,3 @@ body{
 .footer span{
     color: rgb(214, 13, 13);
 }
-
