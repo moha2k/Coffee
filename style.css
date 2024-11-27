@@ -281,8 +281,8 @@ body{
     cursor: pointer;
 }
 .section2 .container .row .col img{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: 50%;
