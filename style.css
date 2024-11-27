@@ -268,8 +268,8 @@ body{
     color: #f3961c;
 }
 .section2 .container .row .col img{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     -o-object-fit: cover;
     object-fit: cover;
     border-radius: 50%;
@@ -513,4 +513,8 @@ body{
 .section7 .container .row .col i{
     font-size: 22px;
     margin-left: 4px;
+}
+.section7 .container .row .col .box{
+    display: flex;
+    justify-content: space-between;
 }
