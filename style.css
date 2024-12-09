@@ -345,62 +345,84 @@ body{
 .section3 .container .row .col .box img{
     max-width: 60%;
 }
-.section4 .container .row .test{
+.slider-wrapper{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+.section4 .card-list{
+    display: flex;
+    margin-top: 40px;  
+}
+.section4 .card-list .card-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+}
+
+.section4 .card-list .card-item .user-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.section4 .card-list .card-item .user-profession {
+    font-size: 1.15rem;
+    font-weight: 500;
+    overflow-wrap: break-word;
+    font-family: "Poppins", sans-serif;
+    margin: 14px 0 40px;
+    line-height: 1.5;
+    text-align: center;
+
+}
+.section4 .card-list .card-item .user-name{
+    font-weight: bolder;
+    overflow-wrap: break-word;
+    font-family: "Poppins", sans-serif;;
+
+}
+.slider-wrapper .swiper-pagination-bullet{
+    background: #f3961c;
+    height: 15px;
+    width: 15px;
+
+    /* bottom: 40px; */
+}
+.slider-wrapper .swiper-pagination{
+    position: relative;
+    bottom: 100px;
+} 
+.slider-wrapper .swiper-slide-button{
+    color: #f3961c;
+}
+
+.section4 .test{
     margin:auto;
 
 
 }
-.section4 .container .row .text h1{
+.section4 .text h1{
     text-align: center;
     font-size: 30px;
     font-weight: bolder;
     color: #08112d;
+    padding-top: 60px;
 
 }
-.section4 .container .row .text{
+.section6 .text{
     padding-bottom: 60px;
 }
 
-.section4{
-    padding-top: 80px;
-    padding-bottom: 80px;
-    
-}
-.section4 .container .row .col{
-    display: flex;
-    justify-content: space-between;
-    flex-basis: 30%;
-    text-align: center;
-    gap: 20px;
-}
-.section4 .container .row .col .box img{
-    width: 180px;
-    height: 180px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 3rem;
-    
 
-   
-}
-.section4 .container .row .col .box h1{
-    font-size: 30px;
-    font-weight: bolder;
-    padding-top: 20px;
 
-}
-.section4 .container .row .col .box p{
-    font-weight: 500;
-}
-@media (max-width:991px) {
-    .section4 .container .row .col{
-        flex-basis: 100%;
-        flex-wrap: wrap;
-    }
 
-    
-}
+
 .section5{
     padding-top: 60px;
     padding-bottom: 60px;
@@ -425,7 +447,6 @@ body{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.section5 .container .row{}
 .section5 .container .row .col{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
