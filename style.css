@@ -376,15 +376,16 @@ body{
     font-weight: 500;
     overflow-wrap: break-word;
     font-family: "Poppins", sans-serif;
-    margin: 14px 0 40px;
+/*     margin: 14px 0 40px; */
     line-height: 1.5;
     text-align: center;
 
 }
 .section4 .card-list .card-item .user-name{
     font-weight: bolder;
-    overflow-wrap: break-word;
+/*     overflow-wrap: break-word; */
     font-family: "Poppins", sans-serif;;
+    padding-bottom: 10px;
 
 }
 .slider-wrapper .swiper-pagination-bullet{
