@@ -402,8 +402,8 @@ body{
 .slider-wrapper .swiper-slide-button{
     color: #f3961c;
 }
-@media (max-width=600px){
-    .swiper-slide-button{
+@media (max-width:600px){
+    .slider-wrapper .swiper-slide-button{
         display:none;
     }
 }
